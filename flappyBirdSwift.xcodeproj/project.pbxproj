@@ -15,6 +15,10 @@
 		92F92A5E19FAB8880064ABBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F92A5D19FAB8880064ABBD /* Images.xcassets */; };
 		92F92A6119FAB8880064ABBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F92A5F19FAB8880064ABBD /* LaunchScreen.xib */; };
 		92F92A6D19FAB8890064ABBD /* flappyBirdSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F92A6C19FAB8890064ABBD /* flappyBirdSwiftTests.swift */; };
+		92F92A7719FABF380064ABBD /* bird-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F92A7619FABF380064ABBD /* bird-01.png */; };
+		92F92A7919FAC8850064ABBD /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F92A7819FAC8850064ABBD /* ground.png */; };
+		92F92A7C19FACEB80064ABBD /* pipeup.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F92A7A19FACEB80064ABBD /* pipeup.png */; };
+		92F92A7D19FACEB80064ABBD /* pipedown.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F92A7B19FACEB80064ABBD /* pipedown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		92F92A6619FAB8890064ABBD /* flappyBirdSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flappyBirdSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F92A6B19FAB8890064ABBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92F92A6C19FAB8890064ABBD /* flappyBirdSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappyBirdSwiftTests.swift; sourceTree = "<group>"; };
+		92F92A7619FABF380064ABBD /* bird-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird-01.png"; sourceTree = "<group>"; };
+		92F92A7819FAC8850064ABBD /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		92F92A7A19FACEB80064ABBD /* pipeup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipeup.png; sourceTree = "<group>"; };
+		92F92A7B19FACEB80064ABBD /* pipedown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipedown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		92F92A5019FAB8870064ABBD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92F92A7619FABF380064ABBD /* bird-01.png */,
+				92F92A7A19FACEB80064ABBD /* pipeup.png */,
+				92F92A7B19FACEB80064ABBD /* pipedown.png */,
+				92F92A7819FAC8850064ABBD /* ground.png */,
 				92F92A5119FAB8880064ABBD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,8 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F92A7919FAC8850064ABBD /* ground.png in Resources */,
+				92F92A7C19FACEB80064ABBD /* pipeup.png in Resources */,
 				92F92A6119FAB8880064ABBD /* LaunchScreen.xib in Resources */,
 				92F92A5E19FAB8880064ABBD /* Images.xcassets in Resources */,
+				92F92A7719FABF380064ABBD /* bird-01.png in Resources */,
+				92F92A7D19FACEB80064ABBD /* pipedown.png in Resources */,
 				92F92A5519FAB8880064ABBD /* GameScene.sks in Resources */,
 				92F92A5C19FAB8880064ABBD /* Main.storyboard in Resources */,
 			);
@@ -345,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = flappyBirdSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = flappyBirdSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
